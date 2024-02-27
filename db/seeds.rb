@@ -9,12 +9,12 @@
 #   end
 
 greetings = [
-  "Hello, World!",
-  "Hola, Mundo!",
-  "Bonjour, le Monde!",
-  "Ciao, Mondo!",
-  "Hallo, Welt!"
-]
+  "Hola, este es un hermoso día!",
+  "Bonjour, c'est une belle journée !",
+  "Hallo, das ist ein schöner Tag!",
+  "Ciao, questa è una bella giornata!
+",
+"こんにちは、これは美しい日です！ (Konnichiwa, kore wa utsukushii hi desu!)"]
 
 greetings.each do |greeting|
   Message.create(content: greeting)
